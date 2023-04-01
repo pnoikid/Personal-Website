@@ -1,0 +1,11 @@
+.links {
+  float: right;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  font-size: 2rem;
+  padding-top: 0.5em 1em;
+}
