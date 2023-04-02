@@ -4,8 +4,21 @@
 a {
   text-decoration: none;
 }
+body {
+  background-color: rgb(105, 99, 99);
+}
 
 header {
   font-size: 2rem;
   padding-top: 0.5em 1em;
+  background-color: rgb(136, 140, 150);
+}
+
+blockquote {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 2rem;
+  float: right;
 }
