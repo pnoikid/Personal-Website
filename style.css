@@ -12,19 +12,27 @@ body {
   background-color: rgb(105, 99, 99);
   color: white;
 }
+body {
+  background-color: rgb(105, 99, 99);
+}
 
 header {
   font-size: 2rem;
   padding-top: 0.5em 1em;
   background-color: rgb(136, 140, 150);
 }
+
 #about {
   border-bottom: 2px solid white;
   font-size: 25px;
 }
+
+
+
 blockquote {
   font-size: 2rem;
 }
+
 
 #author {
   font-size: 2rem;
@@ -50,4 +58,9 @@ ul {
 }
 #motivate {
   font-size: 2rem;
+
+p {
+  font-size: 2rem;
+  float: right;
+
 }
