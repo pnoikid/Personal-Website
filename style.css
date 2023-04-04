@@ -27,12 +27,9 @@ header {
   font-size: 25px;
 }
 
-
-
 blockquote {
   font-size: 2rem;
 }
-
 
 #author {
   font-size: 2rem;
@@ -58,9 +55,9 @@ ul {
 }
 #motivate {
   font-size: 2rem;
+}
 
 p {
   font-size: 2rem;
   float: right;
-
 }
