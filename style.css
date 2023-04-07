@@ -1,25 +1,34 @@
+
+html { 
+  background: url(images/pic.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .links {
   float: right;
+  justify-content: space-evenly;
 }
 a {
   text-decoration: none;
   color: inherit;
 }
 a:hover {
-  background-color: rgb(7, 4, 0);
+  background-color: rgb(255, 255, 255);
 }
-body {
-  background-color: rgb(105, 99, 99);
-  color: white;
-}
-body {
-  background-color: rgb(105, 99, 99);
+
+h2{
+  font-size: 2rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
   font-size: 2rem;
   padding-top: 0.5em 1em;
-  background-color: rgb(136, 140, 150);
+ 
+ 
 }
 
 #about {
@@ -61,3 +70,12 @@ p {
   font-size: 2rem;
   float: right;
 }
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border: 2px solid white;
+  text-align: center;
+}
+
