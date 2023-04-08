@@ -1,6 +1,5 @@
-
-html { 
-  background: url(images/pic.jpg) no-repeat center center fixed; 
+html {
+  background: url(images/pic.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,11 +13,44 @@ a {
   text-decoration: none;
   color: inherit;
 }
-a:hover {
-  background-color: rgb(255, 255, 255);
+.container {
+  height: 300px;
+  width: 600px;
+}
+.me {
+  font-size: 2rem;
+  padding-left: 20px;
+  height: auto;
+  width: 600px;
 }
 
-h2{
+.things {
+  font-size: 2rem;
+  height: 300px;
+  width: 600px;
+  float: right;
+}
+.image {
+  height: 300px;
+  width: 200px;
+  float: left;
+  padding-right: 30px;
+}
+a:hover {
+  background-color: rgb(255, 255, 255);
+  background-color: #333631;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+h2 {
   font-size: 2rem;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -27,13 +59,39 @@ h2{
 header {
   font-size: 2rem;
   padding-top: 0.5em 1em;
- 
- 
 }
 
 #about {
   border-bottom: 2px solid white;
   font-size: 25px;
+}
+/*color change on name*/
+.name {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #084872 0%,
+    #1696b6 29%,
+    #065f06 67%,
+    #8f5a15 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  /*text-fill-color: transparent;*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 2rem;
+}
+/*keyframes*/
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 
 blockquote {
@@ -66,10 +124,6 @@ ul {
   font-size: 2rem;
 }
 
-p {
-  font-size: 2rem;
-  float: right;
-}
 footer {
   position: fixed;
   left: 0;
@@ -78,4 +132,3 @@ footer {
   border: 2px solid white;
   text-align: center;
 }
-
