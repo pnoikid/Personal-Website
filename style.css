@@ -95,13 +95,18 @@ header {
 }
 
 blockquote {
-  font-size: 2rem;
+  font-size: 4rem;
+  float: right;
+  text-align: center;
+  height: 300px;
+  width: 500px;
 }
 
 #author {
   font-size: 2rem;
-  float: right;
-  font-style: bold;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 div {
