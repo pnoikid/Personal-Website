@@ -5,9 +5,12 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
 .links {
-  float: right;
+  display: flex;
   justify-content: space-evenly;
+  align-items: end;
+  margin: auto;
 }
 a {
   text-decoration: none;
@@ -48,6 +51,14 @@ a:hover {
   opacity: 0.6;
   transition: 0.3s;
   opacity: 1;
+  color: inherit;
+}
+
+.image {
+  height: 300px;
+  width: 200px;
+  float: left;
+  padding-right: 30px;
 }
 
 h2 {
@@ -95,9 +106,7 @@ header {
 }
 
 blockquote {
-  font-size: 4rem;
-  float: right;
-  text-align: center;
+  font-size: 2rem;
   height: 300px;
   width: 500px;
 }
@@ -115,6 +124,7 @@ div {
 ul {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   list-style: none;
 }
 
