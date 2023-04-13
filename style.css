@@ -33,12 +33,7 @@ a {
   width: 600px;
   float: right;
 }
-.image {
-  height: 300px;
-  width: 200px;
-  float: left;
-  padding-right: 30px;
-}
+
 a:hover {
   background-color: rgb(255, 255, 255);
   background-color: #333631;
