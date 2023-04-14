@@ -14,7 +14,7 @@ html {
 }
 a {
   text-decoration: none;
-  color: inherit;
+  color: whitesmoke;
 }
 .container {
   height: 300px;
@@ -54,6 +54,47 @@ a:hover {
   width: 200px;
   float: left;
   padding-right: 30px;
+}
+/* contact page */
+#contact_form {
+  background-color: #405d27;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 450px;
+  width: 300px;
+  margin-top: 60px;
+}
+
+.row label {
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+input[type="text"],
+textarea {
+  text-align: center;
+  background-color: #82b74b;
+  border-radius: 10px;
+  margin: auto 0;
+  color: #ffffff;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 10px #3e4444;
+}
+
+input[type="text"] {
+  height: 25px;
+}
+
+input[type="submit"] {
+  background-color: #ff7b25;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-left: 10px;
+  box-shadow: 5px 5px 5px #3e4444;
 }
 
 h2 {
