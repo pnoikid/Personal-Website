@@ -1,3 +1,4 @@
+
 const form = document.querySelector("#form")
 const submitButton = document.querySelector("#submit")
 const scriptURL = "https://httpbin.org/post";
