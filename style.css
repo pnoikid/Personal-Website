@@ -5,13 +5,16 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
 .links {
-  float: right;
+  display: flex;
   justify-content: space-evenly;
+  align-items: end;
+  margin: auto;
 }
 a {
   text-decoration: none;
-  color: inherit;
+  color: whitesmoke;
 }
 .container {
   height: 300px;
@@ -32,12 +35,7 @@ a {
   width: 600px;
   float: right;
 }
-.image {
-  height: 300px;
-  width: 200px;
-  float: left;
-  padding-right: 30px;
-}
+
 a:hover {
   background-color: rgb(255, 255, 255);
   background-color: #333631;
@@ -50,6 +48,55 @@ a:hover {
   opacity: 0.6;
   transition: 0.3s;
   opacity: 1;
+  color: inherit;
+}
+
+.image {
+  height: 300px;
+  width: 200px;
+  float: left;
+  padding-right: 30px;
+}
+/* contact page */
+#contact_form {
+  background-color: #405d27;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 450px;
+  width: 300px;
+  margin-top: 60px;
+}
+
+.row label {
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+input[type="text"],
+textarea {
+  text-align: center;
+  background-color: #82b74b;
+  border-radius: 10px;
+  margin: auto 0;
+  color: #ffffff;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 10px #3e4444;
+}
+
+input[type="text"] {
+  height: 25px;
+}
+
+input[type="submit"] {
+  background-color: #ff7b25;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-left: 10px;
+  box-shadow: 5px 5px 5px #3e4444;
 }
 
 h2 {
@@ -98,12 +145,15 @@ header {
 
 blockquote {
   font-size: 2rem;
+  height: 300px;
+  width: 500px;
 }
 
 #author {
   font-size: 2rem;
-  float: right;
-  font-style: bold;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 div {
@@ -112,6 +162,7 @@ div {
 ul {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   list-style: none;
 }
 
