@@ -4,6 +4,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color: #fff;
 }
 
 .links {
@@ -20,7 +21,6 @@ a {
   height: 300px;
   width: 600px;
 }
-
 
 .me {
   font-size: 2rem;
